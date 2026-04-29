@@ -4,36 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="icon" href="/assets/favicon.ico">
+    <link rel="icon" href="assets/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-        <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="s">
 </head>
 
-<body class="p-3 mb-2 bg-info text-dark">
-    <img src="/assets/fotos/Foto_mr-bean.sem_fundo_1.png" alt="">
-
-    <main class="p-5 mt-5">
+<body class="p-3 mb-2  bg-info text-dark ">
 
 
-        <div class="d-flex align-items-center justify-content-center ">
-            <div class="card shadow p-5 col-md-6 ">
+    <main class="p-5 mt-5 h-100">
+
+        <img id="logo" src="assets/Mr._Bean_logo.png" alt="">
+        <div class="d-flex align-items-center justify-content-center">
+            <div class="card shadow p-5 col-md-6 rounded-5">
                 <form>
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Usuário</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text">Não iremos compartilhar seu email com outras pessoas</div>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">Não iremos compartilhar seus dados com outras pessoas
+                        </div>
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label">Senha</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
+                        <input type="password" class="form-control" id="senha">
                     </div>
                     <div class="mb-3 form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
                         <label class="form-check-label" for="exampleCheck1">Aceitar</label>
                     </div>
-                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-info" type="submit">Enviar</button>
+
+                    </div>
+
                 </form>
             </div>
         </div>
@@ -42,7 +47,7 @@
 
 
 
-
+        <img id="bean_praia" src="assets/bean_praia.png" alt="">
     </main>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

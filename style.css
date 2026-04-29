@@ -1,0 +1,23 @@
+body {
+    font-family: cursive;
+    background-image: url(assets/ef91c9116305a468b54e41df11eea8a4b1b23a994b3554cee9d3c5dccb23db46.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bean_praia {
+    display: block;
+    position: relative;
+    width: 800px;
+    height: 450px;
+    bottom: 70px;
+    right: 100px;
+    
+}
+
+#logo {
+    width: 291px;
+    height: 100px;
+    position: relative;
+    bottom: 85px;
+}
