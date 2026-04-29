@@ -1,7 +1,10 @@
-.bg_azul{
+.bg_bean{
 
-   background-color:  #0DCAF0;
+   background-image: url(Assets/bean_fotoinicial.png); 
    font-family: cursive;
+    image-rendering:optimizeQuality;
+    background-size:cover;
+    back
 }
 
 .title_style{
