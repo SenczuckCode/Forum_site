@@ -1,0 +1,18 @@
+.bg_azul{
+
+   background-color:  #0DCAF0;
+   font-family: cursive;
+}
+
+.title_style{
+
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+   
+}
+
+body{
+ 
+    display: flex;
+}
+
