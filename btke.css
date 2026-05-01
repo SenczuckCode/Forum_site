@@ -1,29 +1,64 @@
-.bg_bean {
-
-    background-image: url(Assets/bean_fotoinicial.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-}
-
-.title_style {
+ .bg_bean {
 
 
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     background-image: url(Assets/bean_fotoinicial.png);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     min-height: 100vh;
 
-}
+ }
 
-body {
 
-    display: flex;
-}
+ .title_style {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
 
-.container {
-    display: flex;
-    gap: 30px;
-    padding-top: 100px;
-    position: relative;
-    right: 550px;
-}
 
+ body {
+     display: flex;
+ }
+
+
+ #home .container {
+     display: flex;
+     gap: 30px;
+     padding-top: 100px;
+     position: relative;
+     right: 550px;
+ }
+
+
+ body {
+
+
+
+     background-color: #f8f9fa;
+     min-height: 100vh;
+ }
+
+ .card {
+
+     transition: transform 0.2s ease, border-color 0.2s ease;
+
+     cursor: pointer;
+ }
+
+
+ .card:hover {
+
+     transform: translateY(-3px);
+
+     border-color: #ffc107 ;
+ }
+
+
+
+ .text-secondary {
+     color: #adb5bd ;
+ }
+
+
+ span {
+     color: #ffffff ;
+ }
