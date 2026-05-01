@@ -30,19 +30,27 @@
                         <label for="exampleInputPassword1" class="form-label">Senha</label>
                         <input type="password" class="form-control" id="senha">
                     </div>
-                    <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Aceitar</label>
-                    </div>
-                    <div class="d-grid gap-2">
-                         <div id="mensagemErro" class="text-danger mb-3" style="font-weight: bold;"></div>
-                        <button class="btn btn-info" type="submit">Enviar</button>
-                        
-                    </div>
+                    <form class="needs-validation" novalidate>
 
-                </form>
-                
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                            <label class="form-check-label" for="exampleCheck1">Aceitar</label>
+
+                            <div class="invalid-feedback">
+                                Você precisa aceitar os termos antes de enviar.
+                            </div>
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-primary" type="submit">Enviar</button>
+                        </div>
+                    </form>
+
             </div>
+
+            </form>
+
+        </div>
         </div>
 
 
@@ -51,7 +59,8 @@
 
         <img id="bean_praia" src="assets/bean_praia.png" alt="">
     </main>
-    ,<script src="script.js"></script>
+    ,
+    <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
